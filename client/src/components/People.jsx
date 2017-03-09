@@ -1,7 +1,7 @@
 import React from 'react'
 import PeopleList from './PeopleList.jsx'
 
-class people extends React.Component{
+class People extends React.Component{
   constructor(){
     super();
     this.state = {people: []}

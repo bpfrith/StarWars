@@ -1,5 +1,5 @@
 import React from 'react'
-import Person from 'Person.jsx'
+import Person from './Person.jsx'
 
 const PeopleList = ({people}) => {
   const personNodes = people.map((person, index) => {

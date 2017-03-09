@@ -1,7 +1,7 @@
 import React from 'react'
-import {Router, Route, IndexRoute, hashHistory} from 'react-router'
 import {render} from 'react-dom'
 import Main from './components/Main.jsx'
+import {Router, Route, IndexRoute, hashHistory} from 'react-router'
 import Home from './components/Home.jsx'
 import People from './components/People.jsx'
 
@@ -15,5 +15,5 @@ window.onload = () => {
       </Route>
     </Router>,
     document.getElementById('app')
-  );
+  )
 }
